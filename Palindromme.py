@@ -1,4 +1,4 @@
-n = int(input("Enter a number: "))
+n = 121
 
 original = n
 reverse = 0
@@ -9,6 +9,6 @@ while n > 0:
     n = n // 10
 
 if original == reverse:
-    print("Palindrome number")
+    print(original, "is a Palindrome number")
 else:
-    print("Not a palindrome number")
+    print(original, "is not a Palindrome number")
